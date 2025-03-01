@@ -16,3 +16,11 @@ def count_employees(company):
     return total
 
 print("\nTotal Employees:", count_employees(company_employees))
+
+def kdictionary(input_dict):
+    kdict = {}
+    for key, value in input_dict.items():
+        if value not in kdict:
+            kdict[value] = []
+        kdict[value].append(key)
+    return kdict

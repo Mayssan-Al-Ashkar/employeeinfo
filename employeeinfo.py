@@ -8,3 +8,5 @@ company_employees = {
     }
 }
 print("Company Employees:", company_employees)
+
+company_employees["Engineering"]["David"] = {"age": 27, "role": "Data Scientist"}
